@@ -1,0 +1,17 @@
+# generated pipeline outputs
+outputs/**
+!outputs/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/models/.gitkeep
+!outputs/test_output/.gitkeep
+
+# raw data (large, user-provided, don't want to commit it)
+data/TLE_dataset/*
+!data/TLE_dataset/.gitkeep
+data/space_weather/*
+!data/space_weather/.gitkeep
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
